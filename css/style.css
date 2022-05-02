@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
+
+:root {
+    --pink: #8643DC;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0; padding: 0;
+    text-decoration: none;
+    transition: all .2s linear;
+    list-style: none;
+}
+body{
+    background-image: linear-gradient(90deg,white, rgb(247, 242, 243), white);
+}
+.container {
+    max-width: 1237px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 14px 49px;
+    background: var(--pink);
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+/* header */
+.header {
+    margin-top: 50px;
+}
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menue {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    margin-right: 100px;
+}
+.header .active {
+    color: #25202F;
+}
+.header .nav {
+    display: flex;
+}
+.nav a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgb(149, 146, 146);
+    display: inline-block;
+    margin-right: 35px;
+}
+.nav a:hover {
+    color: #25202F;
+}
+.header-menue__icon {
+    width: 70px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.3);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* main */
+.main {
+    position: relative;
+    /* transform: rotate(134.4deg);
+    background-color: rgba(90, 248, 153, 0.7);
+    filter: blur(250px); */
+}
+.main .container {
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+} 
+.main .text-muted{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #666666;    
+}
+.main h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120px;
+    color: #25202F;
+}
+.main span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+    margin-bottom: 42px;
+    display: block;
+}
+.main-img {
+    position: relative;
+    top: -50px;
+}
