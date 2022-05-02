@@ -201,6 +201,7 @@ section {
 }
 .title-text__flex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;    
 }
 .title-text__flex a {
